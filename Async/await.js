@@ -18,11 +18,10 @@ const makeApiRequest = () => {
   });
 };
 const getUser = async () => {
- 
   try {
-     //make api call to fetch user
-  const res = await makeApiRequest();
-  console.log(res);
+    //make api call to fetch user
+    const res = await makeApiRequest();
+    console.log(res);
   } catch (error) {
     console.log(error);
   }
